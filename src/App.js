@@ -1,6 +1,7 @@
 import './App.css';
 
 function App() {
+  const t = 'hello';
   return (
     <div className="App">
       <header className="App-header">
@@ -18,7 +19,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            { t } Learn React
           </a>
         </p>
       </header>
